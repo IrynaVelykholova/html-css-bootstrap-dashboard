@@ -18,6 +18,7 @@ header {
 .blue-nav-bar {
     background-color: var(--blue-nav);
     flex-shrink: 0;
+    padding: 10px;
 }
 .orange {
     color: orange;
@@ -43,4 +44,25 @@ header {
 .sidebar ul {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+}
+
+.badge-primary {
+    background-color: rgb(22, 91, 186);
+}
+.title {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.font-size {
+    font-size: 2rem;
+}
+.studenti {
+    margin-bottom: 0;
+}
+.nuovo-studente {
+    margin-right: 80px;
+}
+.border {
+    margin-left: 10px;
 }
