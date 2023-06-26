@@ -1,0 +1,33 @@
+:root {
+    --blue-nav:rgb(27, 114, 232);
+}
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    flex-grow: 1;
+}
+.main-content-container {
+    flex-grow: 1;
+}
+header {
+    max-height: 100px;
+    flex-shrink: 0;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-top: 10px;
+}
+.sidebar {
+    background-color: rgb(16, 40, 61);
+    width: 200px;
+    flex-shrink: 0;
+}
+.blue-nav-bar {
+    background-color: var(--blue-nav);
+    flex-shrink: 0;
+}
+.content {
+    flex-grow: 1;
+}
