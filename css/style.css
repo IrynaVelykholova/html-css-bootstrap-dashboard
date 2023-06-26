@@ -60,9 +60,23 @@ header {
 .studenti {
     margin-bottom: 0;
 }
-.nuovo-studente {
-    margin-right: 80px;
-}
+
 .border {
     margin-left: 10px;
+}
+tbody td img {
+    width: 30px;
+}
+.buttons {
+    height:30px;
+    width:30px;
+    color:grey;
+    border:1px solid grey;
+    background-color: transparent;
+    border-radius:5px;
+}
+
+.card-title {
+    background-color: rgb(247, 247, 247);
+    padding: 8px;
 }
